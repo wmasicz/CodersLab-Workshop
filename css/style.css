@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.header {
+    background: #000;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid red;
+}
+
+.header .logo {
+    padding: 0 55px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header .logo span {
+    font-weight: 900;
+    color: #24ba9f;
+}
+
+/* Belka Menu */
+.header .wrapper {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.menu {
+    padding: 0 63px;
+}
+
+.menu__content {
+
+}
+
+.menu__element {
+    display: inline-block;
+}
+
+.menu__element a {
+    position: relative;
+    padding-left: 35px;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    border: 1px solid red;
+}
+
+.menu__element:first-child::after {
+    content: '';
+
+}
+
+.menu__dropdown {
+    position: absolute;
+    left: 890px;
+    display: none;
+    padding: 10px 10px 10px 5px;
+    width: 110px;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+/* sekcja 1 */
+
+.first__section.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    background: linear-gradient(#fff, #dedede);
+}
+
+.first__section>p:first-child {
+    padding: 0 0 0 60px;
+    color: #24ba9f;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.first__section>p:last-child {
+    padding: 0 60px 0 0;
+    color: #24ba9f;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.first__section__box {
+    display: flex;
+    flex-direction: row;
+
+    border: 1px solid red;
+}
+
+.box__photo {
+    margin-left: -70px;
+    margin-bottom: -50px;
+}
+
+.box__content {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
