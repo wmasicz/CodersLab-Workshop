@@ -267,6 +267,231 @@ hr {
     border: none;
 }
 
+/*Sekcja 3*/
+
+.section__third {
+    position: relative;
+}
+
+.section-header {
+    display: block;
+    padding: 30px 0 30px 55px;
+    text-transform: uppercase;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 960px;
+    border: 1px solid red;
+    background: #f1f1f1;
+}
+
+.section__third h3::after {
+    position: absolute;
+    content: '';
+    top: 58px;
+    left: 525px;
+    height: 6px;
+    width: 257px;
+
+    background: #24ba9f;
+}
+
+.offer {
+    position: relative;
+    padding: 20px 50px;
+    background: #f1f1f1;
+}
+
+.offer-element {
+    position: relative;
+    margin-top: 20px;
+    height: 400px;
+    width: 265px;
+    border: 2px solid #c2c2c2;
+}
+
+.offer-second {
+    border: 2px solid #24ba9f;
+}
+
+.offer article:nth-of-type(odd)::before {
+    position: absolute;
+    content: '';
+    top: -33px;
+    left: 110px;
+    height: 42px;
+    width: 42px;
+    border: 2px solid #c2c2c2;
+    border-radius: 50px;
+    background: #fff;
+    z-index: 100;
+}
+
+.offer article:nth-of-type(odd)::after {
+    position: absolute;
+    content: '';
+    top: -20px;
+    left: 123px;
+    height: 16px;
+    width: 16px;
+    border: 2px solid #c2c2c2;
+    border-radius: 50px;
+    background: #c2c2c2;
+    z-index: 101;
+}
+
+.offer article:nth-of-type(even)::before {
+    position: absolute;
+    content: '';
+    top: -33px;
+    left: 110px;
+    height: 42px;
+    width: 42px;
+    border: 2px solid #24ba9f;
+    border-radius: 50px;
+    background: #24ba9f;
+    z-index: 100;
+}
+
+.offer article:nth-of-type(even)::after {
+    position: absolute;
+    content: '';
+    top: -22px;
+    left: 121px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #24ba9f;
+    border-radius: 50px;
+    background: #fff;
+    z-index: 101;
+}
+
+.offer-element {
+
+}
+
+.offer-element:nth-of-type(odd) {
+        background: #fff;
+}
+
+.offer-element:nth-of-type(odd) h4 {
+    padding: 19px;
+    color: #24ba9f;
+    text-transform: uppercase;
+    font-size: 19px;
+    text-align: center;
+
+}
+
+.offer-element:nth-of-type(odd) .offer-price {
+    margin-top: 2px;
+    margin-left: 80px;
+    height: 103px;
+    width: 103px;
+    border-radius: 50px;
+    border: 2px solid #c2c2c2;
+}
+
+
+.offer-element:nth-of-type(even) {
+    background: #24ba9f;
+    border: 2px solid #24ba9f;
+}
+
+.offer-element:nth-of-type(even) h4 {
+    padding: 19px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 19px;
+    text-align: center;
+
+}
+
+.offer-element:nth-of-type(even) .offer-price {
+    margin-top: 2px;
+    margin-left: 80px;
+    height: 103px;
+    width: 103px;
+    border-radius: 50px;
+    border: 2px solid #24ba9f;
+    background: #fff;
+}
+
+.offer-element:nth-of-type(odd) .offer-price p {
+    margin-top: 18px;
+    text-align: center;
+    color: #c2c2c2;
+}
+
+.offer-element:nth-of-type(even) .offer-price p {
+    margin-top: 18px;
+    text-align: center;
+    color: #24ba9f;
+}
+
+.offer-price p span {
+    font-size: 35px;
+}
+
+.offer-price p:nth-of-type(even) {
+    margin-top: 5px !important;
+}
+
+.offer-element ul {
+    margin: 28px 0;
+}
+
+.offer-element ul li {
+    padding: 7px 0;
+    list-style-type: none;
+    color: #a1a1a1;
+    text-align: center;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.offer-element:nth-of-type(odd) ul li:nth-of-type(odd){
+    background: #e4e4e4;
+}
+
+.offer-element:nth-of-type(odd) ul li:nth-of-type(even){
+    background: #f1f1f1;
+}
+
+.offer-element:nth-of-type(even) ul li:nth-of-type(odd){
+    background: #ffffff;
+}
+
+.offer-element:nth-of-type(even) ul li:nth-of-type(even) {
+    background: #f1f1f1;
+}
+
+.offer-element:nth-of-type(odd) button {
+    margin-left: 50px;
+    padding: 7px 22px;
+    border-radius: 12%;
+    text-transform: uppercase;
+    color: #fff;
+    background: #24ba9f;
+    border: none;
+}
+
+.offer-element:nth-of-type(even) button {
+    margin-left: 50px;
+    padding: 7px 22px;
+    border-radius: 15%;
+    text-transform: uppercase;
+    color: #24ba9f;
+    background: #fff;
+    border: 2px solid #24ba9f;
+}
+
+
+
+
+
+
 
 
 
